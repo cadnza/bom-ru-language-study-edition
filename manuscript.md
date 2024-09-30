@@ -6,6 +6,8 @@ Published by\
 The Church of Jesus Christ of Latter-day Saints\
 Salt Lake City, Utah, USA
 
+<div style="page-break-after: always;"></div>
+
 First English edition published in\
 Palmyra, New York, USA, in 1830
 
@@ -19,3 +21,5 @@ Translation approval: 3/15\
 Translation of the Book of Mormon\
 Language Study Edition\
 Russian/English
+
+<div style="page-break-after: always;"></div>
