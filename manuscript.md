@@ -24,7 +24,7 @@ Russian/English
 
 <div style="page-break-after: always;"></div>
 
-## Титульный лист Книги Мормона
+## ТИ́ТУЛЬНЫЙ ЛИСТ КНИ́ГИ МОРМО́НА
 
 КНИ́ГА МОРМО́НА
 
