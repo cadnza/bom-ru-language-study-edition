@@ -17,3 +17,7 @@ I'll fix problems as I notice them.
 ## Footnotes, cross references, etc.
 
 There aren't any.
+
+## Downloading
+
+You can pick up a copy from the latest [workflow run](https://github.com/cadnza/bom-ru-language-study-edition/actions).
