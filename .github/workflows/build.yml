@@ -9,12 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # - name: Update & upgrade
-      #   run: |
-      #     sudo apt update
-      #     sudo apt upgrade
       - name: Install pandoc
-        run: sudo apt install -y pandoc
+        run: |
+          curl -O https://github.com/jgm/pandoc/releases/download/3.5/pandoc-3.5-1-amd64.deb
+          sudo dpkg -i pandoc-3.5-1-amd64.deb
       - name: TEST # TODO: Remove
         run: pandoc --version
       - name: Build draft
