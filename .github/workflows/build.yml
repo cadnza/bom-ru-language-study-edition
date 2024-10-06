@@ -1,4 +1,4 @@
-name: CI
+name: Build
 on:
   push:
     branches: ["main"]
@@ -13,11 +13,9 @@ jobs:
         run: |
           wget https://github.com/jgm/pandoc/releases/download/3.5/pandoc-3.5-1-amd64.deb
           sudo dpkg -i pandoc-3.5-1-amd64.deb
-      - name: TEST # TODO: Remove
-        run: pandoc --version
       - name: Build draft
         run: ./build.sh
       - uses: actions/upload-artifact@v4
         with:
-          name: draft
+          name: draft.epub
           path: draft.epub
