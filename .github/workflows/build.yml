@@ -9,11 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # - name: Update & upgrade
+      #   run: |
+      #     sudo apt update
+      #     sudo apt upgrade
       - name: Install pandoc
-        run: |
-          sudo apt update
-          sudo apt upgrade
-          sudo apt install -y pandoc
+        run: sudo apt install -y pandoc
       - name: Build draft
         run: ./build.sh
       - uses: actions/upload-artifact@v4
