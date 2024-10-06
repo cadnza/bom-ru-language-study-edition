@@ -8,6 +8,7 @@ pandoc \
 	--metadata-file metadata.json \
 	--epub-cover-image cover.png \
 	--epub-title-page=false \
+	--shift-heading-level-by -1 \
 	manuscript.md
 
 # TODO: Add more CLI options
